@@ -2,7 +2,12 @@
     "name": "mock-spawn",
     "description": "A mock for child_process.spawn",
     "version": "0.2.6",
-    "keywords": [ "child_process", "child process", "spawn", "mock" ],
+    "keywords": [
+        "child_process",
+        "child process",
+        "spawn",
+        "mock"
+    ],
     "author": "Krishnan Anantheswaran <kananthmail-github@yahoo.com>",
     "contributors": [
         "Greg Cochard <greg.cochard@gmail.com>",
@@ -22,12 +27,10 @@
     },
     "devDependencies": {
         "async": "0.2.x",
-        "mockery": "1.4.x",
-        "mocha": "1.x",
         "istanbul": "0.x",
-        "jshint": "2.4.x"
+        "jshint": "^2.9.6",
+        "mocha": "^5.2.0",
+        "mockery": "1.4.x"
     },
     "license": "BSD"
 }
-
-
