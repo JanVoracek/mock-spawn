@@ -67,7 +67,7 @@ MockProcess.prototype._start = function (command, args, opts) {
             if(!that.ended){
                 that.ended = true;
                 that.exitCode = exitCode;
-                that.emit('exit', exitCode);
+                that.emit('exit', exitCode, that.signal);
                 that.stdout.end();
                 that.stderr.end();
             }
